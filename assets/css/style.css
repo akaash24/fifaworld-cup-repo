@@ -1,0 +1,243 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+}
+/* header section css */
+header {
+  margin: 50px;
+}
+
+.banner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #361122;
+  border-radius: 20px;
+}
+.banner-content {
+  width: 70%;
+  margin-left: 50px;
+  margin-top: 50px;
+  margin-bottom: 80px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.banner-title {
+  color: #f9f9e0;
+  font-weight: 700;
+  font-size: 50px;
+  margin-bottom: 25px;
+}
+.banner-description {
+  font-weight: 400;
+  font-size: 20px;
+  color: #b3cde0;
+}
+button {
+  cursor: pointer;
+  border: none;
+  outline: none;
+}
+.banner-button {
+  margin-top: 30px;
+
+  padding: 15px 25px;
+  background-color: red;
+  border-radius: 4px;
+  border: 2px solid #f9f9e0;
+  border-color: transparent;
+}
+.banner-button a {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 23px;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: white;
+}
+.banner-button:hover {
+  background-color: transparent;
+  border: 3px solid #f9f9e0;
+  transition: 0.3s;
+}
+.banner-button i {
+  color: chartreuse;
+}
+.fa-tv {
+  animation-name: tv;
+  position: relative;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+@keyframes tv {
+  10% {
+    bottom: 0px;
+  }
+  90% {
+    bottom: 10px;
+  }
+}
+.banner-image {
+  width: 30%;
+}
+/* blog css start */
+
+.blog-section {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 50px;
+}
+.nav-bar {
+  width: 25%;
+  height: 20%;
+  background-color: #2ab7ca;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  border-radius: 15px;
+  margin-left: 50px;
+}
+.nav-button {
+  color: black;
+  background-color: #b3cde0;
+  padding: 20px 30px;
+  border-radius: 5px;
+  border: 3px solid transparent;
+  font-size: 22px;
+  font-weight: 600;
+  margin-bottom: 20px;
+  text-align: center;
+  text-decoration: none;
+}
+.nav-button:last-child {
+  margin-bottom: 0;
+  background-color: red;
+  color: white;
+  border: 2px solid transparent;
+}
+.nav-button:hover {
+  color: white;
+  background-color: transparent;
+  border-color: wheat;
+  transition: 0.2s;
+}
+.news {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  width: 65%;
+  row-gap: 25px;
+  column-gap: 25px;
+  margin-right: 50px;
+}
+.blogs-thumbnail {
+  width: 100%;
+  border-radius: 15px;
+}
+
+.blog-button {
+  background-color: white;
+  border: 2px solid black;
+  padding: 4px 12px;
+  border-radius: 5px;
+  font-weight: 600;
+  font-size: 22px;
+  margin-bottom: 20px;
+}
+.blog-button a {
+  text-decoration: none;
+}
+.blog-button:hover {
+  background-color: #b4af60;
+  border-color: transparent;
+}
+.blog-button:hover a {
+  color: white;
+}
+.blogs-content {
+  padding: 25px 15px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.151);
+  border-right: 1px solid rgba(0, 0, 0, 0.151);
+  border-left: 1px solid rgba(0, 0, 0, 0.151);
+  border-bottom-left-radius: 7px;
+  border-bottom-right-radius: 7px;
+  position: relative;
+  top: -5px;
+}
+
+.blogs-title {
+  font-weight: 500;
+  font-size: 22px;
+  margin-bottom: 20px;
+}
+.blogs-timer {
+  margin-right: 15px;
+}
+.blogs-timer,
+.blogs-comment {
+  color: black;
+  font-weight: 200;
+  font-size: 20px;
+}
+.fa-clock,
+.fa-comment {
+  color: gray;
+  margin-right: 2px;
+}
+.last-button {
+  text-align: center;
+}
+.see-more {
+  background-color: #361122;
+  padding: 16px 25px;
+  color: white;
+  font-weight: 900;
+  font-size: 20px;
+  text-align: center;
+  border: 2px transparent;
+  margin-bottom: 80px;
+  display: none;
+}
+.see-more:hover {
+  color: black;
+  background-color: red;
+  border-color: black;
+  transition: 0.2s;
+}
+/* footer */
+footer {
+  padding: 80px;
+  background-color: gray;
+}
+.goal {
+  font-weight: 900;
+  font-size: 50px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.footer-content {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 50px;
+}
+.footer-content a {
+  color: #361122;
+  font-weight: 800;
+  font-size: 22px;
+  text-decoration: none;
+}
+
+.social-handel {
+  text-align: center;
+}
+.social-handel i {
+  background-color: transparent;
+  padding: 15px;
+  margin-right: 10px;
+}
+
+/*  */
