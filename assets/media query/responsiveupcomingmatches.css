@@ -32,7 +32,7 @@
     width: 100%;
     margin-bottom: 50px;
   }
-  .news {
+  .upcoming-matches {
     width: 100%;
     grid-template-columns: repeat(1, 1fr);
     margin-left: 50px;
@@ -94,7 +94,8 @@
     border-color: wheat;
     background-color: transparent;
   }
-  .news {
+
+  .upcoming-matches {
     width: 100%;
     grid-template-columns: repeat(2, 1fr);
     margin-left: 50px;

@@ -45,6 +45,7 @@ button {
 }
 .banner-button {
   margin-top: 30px;
+
   padding: 15px 25px;
   background-color: red;
   border-radius: 4px;
@@ -65,7 +66,7 @@ button {
   transition: 0.3s;
 }
 .banner-button i {
-  color: rgb(189, 219, 159);
+  color: chartreuse;
 }
 .fa-tv {
   animation-name: tv;
@@ -113,7 +114,8 @@ button {
   text-align: center;
   text-decoration: none;
 }
-.nav-button:last-child {
+.nav-button:first-child {
+  margin-bottom: 20px;
   background-color: red;
   color: white;
   border: 2px solid transparent;
@@ -124,7 +126,8 @@ button {
   border-color: wheat;
   transition: 0.2s;
 }
-.news {
+
+.upcoming-matches {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   width: 65%;
@@ -132,80 +135,29 @@ button {
   column-gap: 25px;
   margin-right: 50px;
 }
-.blogs-thumbnail {
-  width: 100%;
-  border-radius: 15px;
-}
-
-.blog-button {
-  background-color: white;
-  border: 2px solid black;
-  padding: 4px 12px;
+article {
+  border: 2px solid rgb(247, 244, 244);
+  border-width: 20px;
   border-radius: 5px;
-  font-weight: 600;
-  font-size: 22px;
+}
+.match {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   margin-bottom: 20px;
 }
-.blog-button a {
-  text-decoration: none;
+.match-title {
+  text-align: center;
 }
-.blog-button:hover {
-  background-color: #b4af60;
-  border-color: transparent;
-}
-.blog-button:hover a {
-  color: white;
-}
-.blogs-content {
-  padding: 25px 15px;
-  border-bottom: 1px solid rgba(0, 0, 0, 0.151);
-  border-right: 1px solid rgba(0, 0, 0, 0.151);
-  border-left: 1px solid rgba(0, 0, 0, 0.151);
-  border-bottom-left-radius: 7px;
-  border-bottom-right-radius: 7px;
-  position: relative;
-  top: -5px;
+.match-time {
+  text-align: center;
+  border: 2px solid gray;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  color: #4d4d4d;
 }
 
-.blogs-title {
-  font-weight: 500;
-  font-size: 22px;
-  margin-bottom: 20px;
-}
-.blogs-timer {
-  margin-right: 15px;
-}
-.blogs-timer,
-.blogs-comment {
-  color: black;
-  font-weight: 200;
-  font-size: 20px;
-}
-.fa-clock,
-.fa-comment {
-  color: gray;
-  margin-right: 2px;
-}
-.last-button {
-  text-align: center;
-}
-.see-more {
-  background-color: #361122;
-  padding: 16px 25px;
-  color: white;
-  font-weight: 900;
-  font-size: 20px;
-  text-align: center;
-  border: 2px transparent;
-  margin-bottom: 80px;
-  display: none;
-}
-.see-more:hover {
-  color: black;
-  background-color: red;
-  border-color: black;
-  transition: 0.2s;
-}
 /* footer */
 footer {
   padding: 80px;
