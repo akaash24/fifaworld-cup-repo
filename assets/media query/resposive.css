@@ -1,4 +1,4 @@
-/* mobile device  */
+/* for mobile device  */
 @media screen and (max-width: 767px) {
   .banner-container,
   .container,
@@ -48,13 +48,14 @@
   }
 }
 
-/* Tablet device  */
+/* for Tablet device  */
 @media screen and (min-width: 768px) and (max-width: 992px) {
   .banner-container,
   .container,
   .footer-container {
     width: 700px;
   }
+
   /* banner section */
 
   header {
@@ -71,7 +72,7 @@
     background-position: -25px 0px;
   }
 
-  /* blog Section  Styles */
+  /* blog Section   */
   .blog-section {
     flex-direction: column;
   }
@@ -82,7 +83,10 @@
   }
   .nav-button {
     border-color: #b3cde0;
-    margin-bottom: 0;
+    margin-bottom: 0px;
+  }
+  .nav-bar {
+    margin-bottom: 50px;
   }
   .nav-button:hover {
     background-color: transparent;
